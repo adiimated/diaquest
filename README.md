@@ -31,3 +31,12 @@ The consolidated dataset comprises the following variables:
 | Age                     | Feature   | Integer | Age category                                                                | -          |
 | Education               | Feature   | Integer | Education level                                                             | scale 1-6  |
 | Income                  | Feature   | Integer | Income scale                                                                | scale 1-8  |
+
+Link: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
+
+## Exploratory Data Analysis
+
+## Data Visualization
+
+## Predictive Analysis
+

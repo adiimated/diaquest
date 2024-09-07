@@ -27,7 +27,7 @@ The consolidated dataset comprises the following variables:
 | PhysHlth                | Feature   | Integer | Days in past 30 where physical health was not good                                                          | scale 1-30  |
 | DiffWalk                | Feature   | Binary  | 0 = no, 1 = yes (difficulty walking/climbing stairs)                                                        | -           |
 | Sex                     | Feature   | Binary  | 0 = female, 1 = male                                                                                        | -           |
-| Age                     | Feature   | Integer | Age category using _AGEG5YR: 1=18-24, 2=25-29, 3=30-34, 4=35-39, 5=40-44, 6=45-49, 7=50-54, 8=55-59, 9=60-64, 10=65-69, 11=70-74, 12=75-79, 13=80 or older | -  |
+| Age                     | Feature   | Integer | Age category using _AGEG5YR: 1=18-24, 2=25-29, 3=30-34, 4=35-39, 5=40-44, 6=45-49, 7=50-54, 8=55-59, 9=60-64, 10=65-69, 11=70-74, 12=75-79, 13=80 or older | scale 1-13  |
 | Education               | Feature   | Integer | Education level using EDUCA: 1=Never attended school or only kindergarten, 2=Grades 1-8, 3=Grades 9-11, 4=Grade 12 or GED, 5=College 1-3 years, 6=College 4+ years | scale 1-6   |
 | Income                  | Feature   | Integer | Income scale using INCOME2: 1=Less than $10,000, 2=$10,000-$14,999, 3=$15,000-$19,999, 4=$20,000-$24,999, 5=$25,000-$34,999, 6=$35,000-$49,999, 7=$50,000-$74,999, 8=$75,000 or more | scale 1-8   |
 
